@@ -1,0 +1,7 @@
+.header__container {
+  min-width: 320px;
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}

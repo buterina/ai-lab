@@ -1,0 +1,10 @@
+.header__burger-menu {
+  border: none;
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/about/burger-menu.svg);
+  background-color: rgba(0, 0, 0, 0);
+}
