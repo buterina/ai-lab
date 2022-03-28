@@ -1,3 +1,11 @@
 .header__close-btn {
-  display: none;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-image: url(../../../images/about/close.svg);
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
 }

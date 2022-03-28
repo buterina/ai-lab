@@ -1,4 +1,4 @@
-.logo_place_header {
+.logo_type_close-menu {
   display: block;
   width: 71px;
   height: 24px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (min-width: 720px) {
-  .logo_place_header {
+  .logo_type_close-menu {
     width: 95px;
     height: 32px;
     margin: 14px auto;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .logo_place_header {
+  .logo_type_close-menu {
     width: 150px;
     height: 54px;
     margin: 13px 0;
