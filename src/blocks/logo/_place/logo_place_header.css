@@ -1,0 +1,22 @@
+.logo_place_header {
+  display: block;
+  width: 71px;
+  height: 24px;
+  margin: 10px auto;
+}
+
+@media screen and (min-width: 720px) {
+  .logo_place_header {
+    width: 95px;
+    height: 32px;
+    margin: 14px auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .logo_place_header {
+    width: 150px;
+    height: 54px;
+    margin: 13px 0;
+  }
+}

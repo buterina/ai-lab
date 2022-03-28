@@ -8,3 +8,16 @@
   background-image: url(../../../images/about/burger-menu.svg);
   background-color: rgba(0, 0, 0, 0);
 }
+
+@media screen and (min-width: 720px) {
+  .header__burger-menu {
+    top: 18px;
+    left: 39px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__burger-menu {
+    display: none;
+  }
+}

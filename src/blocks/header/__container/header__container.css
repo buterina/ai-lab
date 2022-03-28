@@ -3,5 +3,5 @@
   max-width: 1140px;
   margin: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
