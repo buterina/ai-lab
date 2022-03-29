@@ -1,0 +1,26 @@
+.header__package {
+  min-width: 100vw;
+  max-width: 1440px;
+  min-height: 44px;
+  background-color: #000D26;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+@media screen and (min-width: 720px) {
+  .header__package {
+    min-height: 60px;
+    /* padding-top: 14px; */
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__package {
+    min-height: 80px;
+    /* padding-top: 13px; */
+  }
+}

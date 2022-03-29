@@ -1,6 +1,6 @@
 .page {
   color: #ffffff;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   text-rendering: optimizeLegibility;
 }

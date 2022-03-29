@@ -1,0 +1,15 @@
+.header__x {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px 0 16px;
+  width: 320px;
+}
+
+@media screen and (min-width: 720px) {
+  .header__x{
+    width: 330px;
+  }
+}

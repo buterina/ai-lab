@@ -1,11 +1,27 @@
 .header__close-btn {
-  position: absolute;
+  /* position: absolute;
   top: 12px;
-  right: 12px;
+  right: 12px; */
   background-image: url(../../../images/about/close.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 24px;
   height: 24px;
   padding: 0;
+  /* margin-left: 194px; */
   background-color: rgba(0, 0, 0, 0);
   border: none;
+}
+
+@media screen and (min-width: 720px) {
+  .header__close-btn {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__close-btn {
+    display: none;
+  }
 }
