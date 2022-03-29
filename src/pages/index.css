@@ -15,3 +15,11 @@
 @import url(../blocks/branch/__read-button/branch__read-button.css);
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/lab-branch/lab-branch.css);
+@import url(../blocks/lab-branch/__name/lab-branch__name.css);
+@import url(../blocks/lab-branch/__text/lab-branch__text.css);
+@import url(../blocks/lab-branch/__image/lab-branch__image.css);
+@import url(../blocks/lab-branch/__paragraph/lab-branch__paragraph.css);
+@import url(../blocks/lab-branch/__text/_size_padding/lab-branch__text_size_padding.css);
+@import url(../blocks/popup/__close/popup__close.css);

@@ -4,8 +4,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: #001337;
-  opacity: 0.6;
+  background: rgba(0, 13, 38, 0.6);
   display: flex;
   visibility: hidden;
   justify-content: center;

@@ -1,0 +1,14 @@
+.lab-branch {
+  padding: 16px;
+  width: 268px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "header"
+    "image"
+    "text1";
+  flex-wrap: wrap;
+}
