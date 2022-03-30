@@ -1,0 +1,6 @@
+.lab-branch__paragraph {
+  grid-area: text1;
+  max-width: 268px;
+  margin: 0;
+  padding-top: 10px;
+}
