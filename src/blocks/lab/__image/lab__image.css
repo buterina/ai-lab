@@ -1,0 +1,6 @@
+.lab__image {
+    width: 288px;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 5px;
+}

@@ -1,0 +1,10 @@
+.lab-branch__name {
+  grid-area: header;
+  font-size: 14px;
+  line-height: 1.3618;
+  font-weight: 600;
+  font-style: normal;
+  color: #000D26;
+  margin: 0;
+  padding-bottom: 15px;
+}
