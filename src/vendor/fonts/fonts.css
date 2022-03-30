@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(./OpenSans-Regular.ttf) format("ttf");
+    src: url(./OpenSans-Regular.ttf) format('truetype');
 }
 
 @font-face {
@@ -11,7 +11,7 @@
     font-style: normal;
     font-weight: 600;
     font-display: swap;
-    src: url(./OpenSans-SemiBold.ttf) format('ttf');
+    src: url(./OpenSans-SemiBold.ttf) format('truetype');
 }
 
 /* остальные шрифты в папке, но их нужно подключить */
