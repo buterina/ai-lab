@@ -1,0 +1,15 @@
+.header__dropdown-package_active {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  min-height: 340px;
+  background-color: #000D26;
+}
+
+@media screen and (min-width: 1280px) {
+  .header__dropdown-package_active {
+    display: none;
+  }
+}

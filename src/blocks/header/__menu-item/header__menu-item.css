@@ -1,0 +1,26 @@
+.header__menu-item {
+  /* padding: 30px 0 30px 0; */
+  margin: 0 0 10px 16px;
+  position: relative;
+  
+}
+
+.header__menu-item:nth-child(4):hover {
+  font-weight: 600;
+}
+
+.header__menu-item:nth-child(4):hover .header__col-submenu {
+  transform: scaleY(1);
+  visibility: visible;
+  height: auto;
+}
+
+.header__menu-item:hover .header__row-submenu {
+  visibility: visible;
+}
+
+@media screen and (min-width: 1280px) {
+  .header__menu-item {
+    padding: 30px 0 30px 0;
+  }
+}
