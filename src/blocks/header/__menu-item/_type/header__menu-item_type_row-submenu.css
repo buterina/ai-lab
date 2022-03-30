@@ -3,10 +3,6 @@
   margin: 0;
 }
 
-/* .header__menu-item_type_row-submenu:first-child {
-  margin-top: 48px;
-} */
-
 .header__menu-item_type_row-submenu:hover {
   background-color: #009FAC;
 }

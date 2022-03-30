@@ -1,24 +1,4 @@
 .header__row-package {
-  min-width: 100vw;
-  max-width: 1440px;
-  min-height: 44px;
-  background-color: #000D26;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
- 
+  display: none;
 }
 
-@media screen and (min-width: 720px) {
-  .header__row-package {
-    min-height: 60px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .header__row-package {
-    min-height: 80px;
-  }
-}

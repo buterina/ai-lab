@@ -1,7 +1,7 @@
 .logo_type_container {
   width: 71px;
   height: 24px;
-  margin-right: calc((100% / 2) - 35px);
+  /* margin-right: calc((100% / 2) - 35px); */
 }
 
 @media screen and (min-width: 720px) {

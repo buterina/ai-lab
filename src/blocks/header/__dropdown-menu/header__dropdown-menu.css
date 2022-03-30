@@ -1,7 +1,7 @@
 .header__dropdown-menu {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   padding: 16px 0;
   margin: 0;
   box-sizing: border-box;
