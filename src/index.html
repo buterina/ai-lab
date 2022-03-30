@@ -13,63 +13,62 @@
     <header class="header">
 
       <div class="header__container">
-        <!-- <div class="header__package">
-          <button class="header__burger-menu"></button>
-          <img class="logo logo_type_container" src="./images/Logo_AI_1.svg" alt="Логотип">  
-        </div> -->
-      </div>
 
-
-
-      <div class="header__menu header__menu_active">
-        <div class="header__package">
+        <div class="header__row-package ">
           <button class="header__burger-menu"></button>
           <img class="logo logo_type_container" src="./images/Logo_AI_1.svg" alt="Логотип">
           <ul class="header__row-menu page__list">
             <li class="header__menu-item"><a class="header__link" href="#">О нас</a></li>
             <li class="header__menu-item"><a class="header__link" href="#">Лаборатория</a></li>
             <li class="header__menu-item"><a class="header__link" href="#">Проекты</a></li>
-            <li class="header__menu-item"><a class="header__link header__link_active" href="#">Образование</a></li>
+            <li class="header__menu-item"><a class="header__link header__link_active" href="#">Образование</a>
+              <ul class="header__submenu page__list">
+                <li class="header__menu-item"><a class="header__link header__link_type_sub-menu"
+                    href="#">Магистратура</a>
+                </li>
+                <li class="header__menu-item"><a class="header__link header__link_type_sub-menu"
+                    href="#">Аспирантура</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__menu-item"><a class="header__link" href="#">Публикации</a></li>
+            <li class="header__menu-item"><a class="header__link" href="#">Команда</a></li>
+            <li class="header__menu-item"><a class="header__link" href="#">Связаться</a></li>
+          </ul>
+        </div>
 
-        <ul class="page__list">
+        <div class="header__dropdown-package header__dropdown-package_active">
+          <!-- <div class="header__menu"> -->
+            <div class="header__menu-container">
+              <img class="logo logo_type_menu" src="./images/Logo_AI_1.svg" alt="Логотип">
+              <button class="header__close-btn"></button>
+            </div>
+          <!-- </div> -->
+          <ul class="header__dropdown-menu page__list">
+            <li class="header__menu-item"><a class="header__link" href="#">О нас</a></li>
+            <li class="header__menu-item"><a class="header__link" href="#">Лаборатория</a></li>
+            <li class="header__menu-item"><a class="header__link" href="#">Проекты</a></li>
+            <li class="header__menu-item"><a class="header__link header__link_active" href="#">Образование</a></li>
+            <ul class="page__list">
               <li class="header__menu-item"><a class="header__link header__link_type_sub-menu" href="#">Магистратура</a>
               </li>
               <li class="header__menu-item"><a class="header__link header__link_type_sub-menu" href="#">Аспирантура</a>
-              </li>  
+              </li>
             </ul>
-
-        <li class="header__menu-item"><a class="header__link" href="#">Публикации</a></li>
+            <li class="header__menu-item"><a class="header__link" href="#">Публикации</a></li>
             <li class="header__menu-item"><a class="header__link" href="#">Команда</a></li>
             <li class="header__menu-item"><a class="header__link" href="#">Связаться</a></li>
           </ul>
         </div>
 
 
-        <!-- <div class="header__menu-package">
-          <div class="header__x">
-            <img class="logo logo_type_menu" src="./images/Logo_AI_1.svg" alt="Логотип">
-            <button class="header__close-btn"></button>
-          </div>         
-        </div>
-        <ul class="header__dropdown-menu page__list">
-          <li class="header__menu-item"><a class="header__link" href="#">О нас</a></li>
-          <li class="header__menu-item"><a class="header__link" href="#">Лаборатория</a></li>
-          <li class="header__menu-item"><a class="header__link" href="#">Проекты</a></li>
-          <li class="header__menu-item"><a class="header__link header__link_active" href="#">Образование</a></li>
-          <li class="header__menu-item"><a class="header__link header__link_type_sub-menu" href="#">Магистратура</a>
-          </li>
-          <li class="header__menu-item"><a class="header__link header__link_type_sub-menu" href="#">Аспирантура</a>
-          </li>
-          <li class="header__menu-item"><a class="header__link" href="#">Публикации</a></li>
-          <li class="header__menu-item"><a class="header__link" href="#">Команда</a></li>
-          <li class="header__menu-item"><a class="header__link" href="#">Связаться</a></li>
-        </ul> -->
-
 
       </div>
 
 
     </header>
+
+
 
     <main class="main">
       <section class="intro"></section>

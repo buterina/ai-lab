@@ -1,4 +1,4 @@
-.header__x {
+.header__menu-container {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (min-width: 720px) {
-  .header__x{
+  .header__menu-container{
     width: 330px;
   }
 }
