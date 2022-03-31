@@ -1,5 +1,4 @@
 .branch__read-button {
-  width: 120px;
   height: 32px;
   border: 1px solid #001337;
   border-radius: 5px;
@@ -12,4 +11,5 @@
   color: #001337;
   letter-spacing: 0.06px;
   padding: 0;
+  position: relative;
 }

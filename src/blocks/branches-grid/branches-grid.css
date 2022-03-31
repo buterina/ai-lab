@@ -6,3 +6,10 @@
   list-style: none;
   margin: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .branches-grid {
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
