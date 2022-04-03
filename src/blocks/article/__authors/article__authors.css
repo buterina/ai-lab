@@ -1,0 +1,20 @@
+.article__authors {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 1.45;
+  color:  #009FAC;
+  margin: 0 16px 10px 16px;
+}
+@media screen and (min-width: 767px) {
+  .article__authors {
+    font-size: 14px;
+    line-height: 1.35;
+    margin: 0 20px 12px 20px;
+  }
+}
+@media screen and (min-width: 1439px) {
+  .article__authors {
+    margin-bottom: 20px;
+  }
+}
