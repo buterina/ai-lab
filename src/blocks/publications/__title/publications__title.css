@@ -1,0 +1,22 @@
+.publications__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.375;
+  text-transform: uppercase;
+  margin: 40px auto 20px auto;
+}
+@media screen and (min-width: 767px) {
+  .publications__title{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1439px) {
+  .publications__title{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    line-height: 1.88;
+  }
+}

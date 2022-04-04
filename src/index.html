@@ -74,6 +74,7 @@
     <main class="main">
       <section class="intro"></section>
       <section class="about"></section>
+      
       <section class="lab">
         <h2 class="lab__title" lang="en">INDUSTRIAL AI RESEARCH LAB</h2>
         <div class="lab__description">
@@ -121,9 +122,53 @@
           </li>
         </ul>
       </section>
+
       <section class="projects" id="projects"></section>
       <section class="education" id="education"></section>
-      <section class="publications" id="publications"></section>
+
+      <section class="publications" id="publications">
+        <h2 class="publications__title">публикации</h2>
+        <div class="publications__container">
+          <ul class="publications__articles-list">
+            <li class="publications__article article">
+              <img class="article__image" src="./images/publication/publication_Topic-driven Ensemble for Online Advertising Generation.png" alt="#">
+              <h3 class="article__title">Topic-driven Ensemble for Online Advertising Generation</h3>
+              <p class="article__authors">Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov, Denis Nasonov</p>
+              <p class="article__text">Online advertising is one of the most widespread ways to reach and increase a target audience for those selling products. Usually having a form of a banner, advertising engages users into visiting a corresponding webpage. Professional generation of banners requires creative and writing skills and a basi…</p>
+              <div class="article__footer">
+                <button class="article__read-all" type="button">
+                  Читать полностью
+                  <span class="article__arrow arrow"></span>
+                </button>
+                <button class="article__share" type="button"></button>
+                <!-- <div class="article__share-container article__share-container_hidden"> -->
+                <div class="article__share-container">
+                  <ul class="share-links">
+                    <li><a class="share-links__link share-links__link_vk" href=""></a></li>
+                    <li><a class="share-links__link share-links__link_fb" href=""></a></li>
+                    <li><a class="share-links__link share-links__link_telegram" href=""></a></li>
+                    <li><a class="share-links__link share-links__link_instagram" href=""></a></li>
+                    <li><a class="share-links__link share-links__link_youtube" href=""></a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="publications__navigation-dots">
+            <div class="publications__navigation-dot publications__navigation-dot_active"></div>
+            <div class="publications__navigation-dot"></div>
+            <div class="publications__navigation-dot"></div>
+            <div class="publications__navigation-dot"></div>
+          </div>
+          <button class="publication__nav-btn publication__nav-btn_prew" type="button">
+            <span class="publication__arrow publication__arrow_prew arrow"></span>
+          </button>
+          <button class="publication__nav-btn publication__nav-btn_next" type="button">
+            <span class="publication__arrow publication__arrow_next arrow"></span>
+          </button>
+        </div>
+      </section>
+
       <section class="team" id="team"></section>
       <section class="partners"></section>
       <section class="contact" id="contacts"></section>

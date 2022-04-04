@@ -1,0 +1,18 @@
+.publications__navigation-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: #000D26;
+  opacity: .5;
+  cursor: pointer;
+}
+@media screen and (min-width: 767px) {
+  .publications__navigation-dot {
+    width: 8px;
+    height: 8px;
+  }
+}
+.publications__navigation-dot:hover {
+  opacity: .7;
+  transition: all .1s ease-in;
+}

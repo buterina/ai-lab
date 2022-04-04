@@ -1,0 +1,18 @@
+.article__arrow {
+  margin-left: 11px;
+}
+@media screen and (min-width: 767px) {
+  .article__arrow {
+    margin-left: 15px;
+  }
+}
+@media screen and (min-width: 1439px) {
+  .article__arrow {
+    margin-left: 8px;
+    transition: all .2s ease-out;
+    transition-delay: .2s;
+  }
+  .article:hover .article__arrow {
+    margin-left: 15px;
+  }
+}
