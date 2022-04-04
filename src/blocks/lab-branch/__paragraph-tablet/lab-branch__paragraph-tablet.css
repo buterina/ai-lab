@@ -1,0 +1,10 @@
+.lab-branch__paragraph-tablet {
+  grid-area: text2;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .lab-branch__paragraph-tablet {
+    display: block;
+  }
+}

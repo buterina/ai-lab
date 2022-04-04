@@ -55,6 +55,7 @@
 @import url(../blocks/lab-branch/__text/lab-branch__text.css);
 @import url(../blocks/lab-branch/__image/lab-branch__image.css);
 @import url(../blocks/lab-branch/__paragraph/lab-branch__paragraph.css);
+@import url(../blocks/lab-branch/__paragraph-tablet/lab-branch__paragraph-tablet.css);
 @import url(../blocks/lab-branch/__text/_size_padding/lab-branch__text_size_padding.css);
 @import url(../blocks/popup/__close/popup__close.css);
 
