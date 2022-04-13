@@ -1,0 +1,26 @@
+.projects__cards {
+  display: grid;
+  grid-auto-rows: 130px;
+  grid-template-columns: repeat(auto-fit, 140px);
+  justify-content: center;
+  grid-gap: 8px;
+  margin: 20px 0 11px;
+  grid-auto-flow: dense;
+}
+
+@media screen and (min-width: 650px){
+  .projects__cards {
+    grid-auto-rows: 200px;
+    grid-template-columns: repeat(auto-fit, 210px);
+    grid-gap: 30px;
+    margin: 0 0 33px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .projects__cards {
+    grid-auto-rows: 228px;
+    grid-template-columns: repeat(auto-fit, 254px);
+    grid-gap: 30px;
+    margin: 0 0 33px;
+  }
+}

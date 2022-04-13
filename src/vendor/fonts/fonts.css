@@ -5,5 +5,11 @@
     font-display: swap;
     src: url("./OpenSans-Regular.ttf") format("ttf")
 }
-
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./OpenSans-SemiBold.ttf") format("ttf")
+}
 /* остальные шрифты в папке, но их нужно подключить */
