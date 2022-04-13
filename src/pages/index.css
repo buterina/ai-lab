@@ -1,2 +1,15 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/education/education.css);
+@import url(../blocks/education/__info/education__info.css);
+@import url(../blocks/education/__info-title/education__info-title.css);
+@import url(../blocks/education/__info-subtitle/education__info-subtitle.css);
+@import url(../blocks/education/__card/education__card.css);
+@import url(../blocks/education/__img/education__img.css);
+@import url(../blocks/education/__program/education__program.css);
+@import url(../blocks/education/__program-title/education__program-title.css);
+@import url(../blocks/education/__program-list/education__program-list.css);
+@import url(../blocks/education/__program-link/education__program-link.css);
+@import url(../blocks/education/__input/education__input.css);
+@import url(../blocks/education/__input-checkbox/education__input-checkbox.css);
+@import url(../blocks/education/__input-checkbox-switch/education__input-checkbox-switch.css);

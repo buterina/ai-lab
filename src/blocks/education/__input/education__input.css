@@ -1,0 +1,31 @@
+.education__input {
+	margin: 16px 16px 0;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	height: 40px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #000d26;
+	user-select: none;
+}
+
+@media screen and (min-width: 768px) {
+	.education__input {
+		margin: 30px 159px 0;
+		border-radius: 10px;
+		height: 44px;
+		font-size: 14px;
+		line-height: 19px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.education__input {
+		margin: 35px 450px 0;
+		font-size: 18px;
+		line-height: 30px;
+		height: 60px;
+	}
+}
