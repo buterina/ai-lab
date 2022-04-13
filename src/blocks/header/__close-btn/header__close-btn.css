@@ -1,26 +1,28 @@
 .header__close-btn {
-  /* position: absolute;
-  top: 12px;
-  right: 12px; */
   background-image: url(../../../images/about/close.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
-  padding: 0;
+  margin: 12px 16px 8px 193px;
   /* margin-left: 194px; */
   background-color: rgba(0, 0, 0, 0);
   border: none;
+}
+
+.header__close-btn:hover {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 720px) {
   .header__close-btn {
     width: 32px;
     height: 32px;
+    margin: 14px 30px 14px 134px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1080px) {
   .header__close-btn {
     display: none;
   }

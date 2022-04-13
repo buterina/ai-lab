@@ -1,0 +1,8 @@
+.header__checkbox_type_burger:checked + .header__burger-btn {
+  display: none;
+}
+
+.header__checkbox_type_burger:checked ~ .header__navi {
+  display: flex;
+}
+

@@ -1,0 +1,34 @@
+.header__navi {
+  display: none;
+  position: absolute;
+  top: 44px;
+  left: 0;
+  flex-direction: column;
+  width: 320px;
+  background-color: #000D26;
+}
+
+@media screen and (min-width: 720px) {
+  .header__navi {
+    width: 330px;
+    top: 60px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .header__navi {
+    width: 65%;
+    min-height: 100%;
+    display: flex;
+    position: static;
+    margin-left: 5%;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__navi {
+    width: 60%;
+    margin-left: 8%;
+  }
+}
