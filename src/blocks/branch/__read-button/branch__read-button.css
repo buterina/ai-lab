@@ -1,0 +1,15 @@
+.branch__read-button {
+  height: 32px;
+  border: 1px solid #001337;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 10px;
+  line-height: 1.3618;
+  font-weight: 600;
+  font-style: normal;
+  color: #001337;
+  letter-spacing: 0.06px;
+  padding: 0;
+  position: relative;
+}

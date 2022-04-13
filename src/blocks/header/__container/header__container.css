@@ -1,0 +1,15 @@
+.header__container {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: 0;
+  background-color: #000D26;
+}
+
+@media screen and (min-width: 720px) {
+  .header__container {
+    width: 330px;
+  }
+}

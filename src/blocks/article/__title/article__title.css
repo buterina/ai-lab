@@ -1,0 +1,13 @@
+.article__title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.35;
+  margin: 0 16px 5px 16px;
+}
+@media screen and (min-width: 767px) {
+  .article__title{
+    font-size: 18px;
+    line-height: 1.66;
+    margin: 0 20px 4px 20px;
+  }
+}

@@ -1,0 +1,17 @@
+.publications__navigation-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 0 225px 0;
+}
+@media screen and (min-width: 767px) {
+  .publications__navigation-dots {
+    gap: 12px;
+    margin: 0 0 315px 0;
+  }
+}
+@media screen and (min-width: 1439px) {
+  .publications__navigation-dots {
+    margin: 0 0 390px 0;
+  }
+}

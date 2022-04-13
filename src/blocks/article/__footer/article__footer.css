@@ -1,0 +1,29 @@
+.article__footer {
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background: #009FAC;
+  border-radius: 0px 0px 5px 5px;
+  margin-top: auto;
+  padding: 0 16px;
+}
+@media screen and (min-width: 767px) {
+  .article__footer {
+    height: 60px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 1439px) {
+  .article__footer {
+    height: 0;
+    overflow: hidden;
+    transition: all .3s ease-in;
+  }
+  .article:hover .article__footer{
+    height: 70px;
+    overflow: visible;
+  }
+}

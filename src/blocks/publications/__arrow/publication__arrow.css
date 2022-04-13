@@ -1,0 +1,32 @@
+@media screen and (min-width: 1439px) {
+  .publication__arrow{
+    position: absolute;
+    top: 30px;
+    left: 16px;
+    background-color: #000000;
+    transition: all .15s ease-in;
+    width: 27px;
+    height: 1px;
+  }
+  .publication__nav-btn:hover .publication__arrow{
+    background-color: #ffffff; 
+  }
+  .publication__arrow::before,
+  .publication__arrow::after {
+    right: -3px;
+    width: 14px;
+    height: 1px;
+    background-color: #000000;
+    transition: all .15s ease-in;
+  }
+  .publication__arrow::before {
+    top: -4.75px;
+  }
+  .publication__arrow::after {
+    top: 4.75px;
+  }
+  .publication__nav-btn:hover .publication__arrow::before,
+  .publication__nav-btn:hover .publication__arrow::after {
+    background-color: #ffffff;
+  }
+}
