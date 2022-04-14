@@ -43,6 +43,12 @@
 @import url(../blocks/header/__link/_type/header__link_type_submenu.css);
 @import url(../blocks/header/__menu-item/_type/header__menu-item_type_submenu.css);
 
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__title/_type/intro__title_type_bold.css);
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__button/intro__button.css);
+
 @import url(../blocks/page/page.css);
 @import url(../blocks/lab/lab.css);
 @import url(../blocks/lab/__title/lab__title.css);
