@@ -1,12 +1,31 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__list/project__list.css);
+@import url(../blocks/projects/__arrow/projects__arrow.css);
+@import url(../blocks/projects/__item/projects__item.css);
+@import url(../blocks/projects/__subtitles/projects__subtitles.css);
+@import url(../blocks/projects/__link/projects__link.css);
+@import url(../blocks/projects/__cards/projects__cards.css);
+@import url(../blocks/card-project/card-project.css);
+@import url(../blocks/card-project/__logo/card-project__logo.css);
+@import url(../blocks/card-project/__description/card-project__description.css);
+@import url(../blocks/card-project/__more/card-project__more.css);
+@import url(../blocks/card-project/__more-link/card-project__more-link.css);
+@import url(../blocks/card-project/__more-arrow/card-project__more-arrow.css);
+@import url(../blocks/card-project/__button/card-project__button.css);
+@import url(../blocks/pagination/pagination.css);
+@import url(../blocks/pagination/__arrow/pagination__arrow.css);
+@import url(../blocks/pagination/__page-number/pagination__page-number.css);
+@import url(../blocks/pagination/__page-number/_active/pagination__page-number_active.css);
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__wrapper/page__wrapper.css);
 @import url(../blocks/page/__list/page__list.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__container/header__container.css); 
+@import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/logo/logo.css);
 
 @import url(../blocks/header/__row-package/header__row-package.css);
@@ -31,8 +50,6 @@
 @import url(../blocks/header/__col-submenu/header__col-submenu.css);
 @import url(../blocks/header/__menu-item/_type/header__menu-item_type_col-submenu.css);
 @import url(../blocks/header/__link/_type/header__link_type_col-submenu.css);
-
-/* ====================== */
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/lab/lab.css);
@@ -94,3 +111,4 @@
 @import url(../blocks/share-links/__link/_telegram/share-links__link_telegram.css);
 @import url(../blocks/share-links/__link/_vk/share-links__link_vk.css);
 @import url(../blocks/share-links/__link/_youtube/share-links__link_youtube.css);
+

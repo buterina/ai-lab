@@ -1,0 +1,12 @@
+.projects__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #009FAC;
+}
+
+@media screen and (min-width: 650px) {
+  .projects__list {
+    display: none;
+  }
+}

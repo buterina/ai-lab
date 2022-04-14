@@ -1,0 +1,41 @@
+.projects__subtitles {
+  list-style: none;
+  margin: 0;
+  padding: 16px 0 104px;
+  background: #000D26;
+  display: none;
+}
+
+.projects__subtitle {
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  width: 100%;
+}
+
+@media screen and (min-width: 650px) {
+  .projects__subtitles {
+    display: flex;
+    justify-content: space-around;
+    background: #001337;
+    padding: 12px 16px 42px;
+  }
+  .projects__subtitle{
+    text-align: center;
+  }
+
+  .projects__subtitle_active {
+    border-bottom: #009FAC 4px solid;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .projects__subtitles {
+    padding: 12px 16px 60px;
+  }
+  .projects__subtitle{
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,18 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen  and (min-width: 450px){
+  .pagination {
+    max-width: 436px;
+  }
+}
+@media screen  and (min-width: 1100px){
+  .pagination {
+    max-width: 340px;
+  }
+}

@@ -1,4 +1,9 @@
 .page {
+<<<<<<< HEAD
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+}
+=======
   color: #ffffff;
   font-weight: 400;
   text-rendering: optimizeLegibility;
@@ -14,3 +19,4 @@
   font-family: 'Open Sans', Arial, sans-serif;
 }
 
+>>>>>>> cd7e587fbbebca0ba39e66ca0ce71755b3448382
