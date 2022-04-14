@@ -12,5 +12,6 @@
     line-height: 30px;
     letter-spacing: .1px;
     margin: 16px 0 0 39px;
+    max-width: 445px;
   }
 }

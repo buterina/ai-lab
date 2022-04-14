@@ -11,16 +11,15 @@
   z-index: -1;
   background-image: url(../../images/Background.png);
   background-size: cover;
-  background-position: bottom right;
+  background-position: right;
   transform: scaleX(-1);
 }
 
 @media screen and (min-width: 720px) {
   .intro::before {
-    left: -20%;
-    top: -20%;
-    width: 150%;
-    height: 150%;
-    background-position: top right;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
   }
 }

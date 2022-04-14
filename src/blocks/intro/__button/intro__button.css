@@ -1,5 +1,5 @@
 .intro__button {
-  margin: 50px 16px;
+  margin: 50px 0 77px 16px;
   padding: 0;
   border: 1px solid rgba(255, 255, 255, 1);
   border-radius: 5px;
@@ -20,6 +20,8 @@
 
 @media screen and (min-width: 720px) {
   .intro__button {
-    margin: 50px 0 50px 39px;
+    width: 330px;
+    height: 60px;
+    margin: 40px 0 120px 39px;
   }
 }
