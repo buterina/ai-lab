@@ -1,1 +1,13 @@
+
+# dependencies
+/node_modules
+
+# IntellijIdea files
+.idea
+
+# production
+/build
+/dist
+
 .DS_Store
+

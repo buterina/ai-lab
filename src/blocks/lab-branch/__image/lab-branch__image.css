@@ -5,3 +5,11 @@
   object-fit: cover;
   border-radius: 10px;
 }
+
+@media screen and (min-width: 768px) {
+ .lab-branch__image {
+  width: 199px;
+  height: 414px;
+  margin-right: 20px;
+ } 
+}

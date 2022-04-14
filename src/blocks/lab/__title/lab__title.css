@@ -8,3 +8,11 @@
     margin: 0;
     padding-bottom: 20px;
 }
+
+@media screen and (min-width: 768px) {
+    .lab__title {
+        font-size: 24px;
+        letter-spacing: 0.1px;
+        padding-bottom: 30px;
+    }
+}

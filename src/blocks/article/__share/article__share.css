@@ -1,0 +1,12 @@
+.article__share {
+  width: 20.5px;
+  height: 21.5px;
+  background: center / contain no-repeat url('../../../images/publication/share_icon.svg');
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: all .15s ease-in;
+}
+.article__share:hover {
+  opacity: .85;
+}
