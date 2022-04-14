@@ -1,0 +1,26 @@
+.card-project__logo {
+  height: 26px;
+  align-self: start;
+  margin: 0 0 8px;
+}
+
+.card-project__logo_active {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.card-project__logo-svg-path {
+  fill: #fff;
+}
+
+.card-project__logo-svg-path_active {
+  fill: #001337;
+}
+
+@media screen and (min-width: 650px){
+  .card-project__logo {
+    width: 110px;
+    height: 43px;
+  }
+}

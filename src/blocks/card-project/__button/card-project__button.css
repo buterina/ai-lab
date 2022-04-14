@@ -1,0 +1,33 @@
+.card-project__button {
+  border-radius: 50%;
+  background: #fff url("../../../images/arrow-right_12.svg") no-repeat center;
+  background-size: auto;
+  border: none;
+  width: 20px;
+  height: 20px;
+  align-self: end;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.card-project__button_active {
+  background: #009FAC url("../../../images/arrow-left_12.svg") no-repeat center;
+}
+
+
+@media screen and (min-width: 650px){
+  .card-project__button{
+    width: 32px;
+    height: 32px;
+    background-size: 18px;
+
+  }
+}
+@media screen and (min-width: 1100px){
+  .card-project__button{
+    width: 40px;
+    height: 40px;
+    background-size: 22px;
+
+  }
+}

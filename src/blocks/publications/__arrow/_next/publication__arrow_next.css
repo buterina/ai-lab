@@ -1,0 +1,5 @@
+@media screen and (min-width: 1439px) {
+  .publication__arrow_next{
+    transform: rotate(180deg);
+  }
+}

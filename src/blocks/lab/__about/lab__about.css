@@ -1,0 +1,17 @@
+.lab__about {
+    font-size: 12px;
+    line-height: 1.3618;
+    font-weight: 400;
+    font-style: normal;
+    color: #000D26;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .lab__about {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+    }
+}

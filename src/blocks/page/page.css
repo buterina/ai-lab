@@ -1,0 +1,22 @@
+.page {
+<<<<<<< HEAD
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+}
+=======
+  color: #ffffff;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #E0F0FF;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+>>>>>>> cd7e587fbbebca0ba39e66ca0ce71755b3448382

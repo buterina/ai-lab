@@ -1,0 +1,22 @@
+.article__read-all {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.35;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: all .15s ease-in;
+}
+.article__read-all:hover {
+  opacity: .85;
+}
+@media screen and (min-width: 767px) {
+  .article__read-all {
+    font-size: 18px;
+    line-height: 1.66;
+  }
+}

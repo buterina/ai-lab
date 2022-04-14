@@ -1,0 +1,19 @@
+.branch__name {
+  font-size: 10px;
+  line-height: 1.3618;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.06px;
+  color: #001337;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 8px;
+  white-space: pre-line;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .branch__name {
+    font-size: 12px;
+  }
+}

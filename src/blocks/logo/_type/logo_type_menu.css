@@ -1,0 +1,13 @@
+.logo_type_menu {
+  width: 71px;
+  height: 24px;
+  margin: 10px 0;
+}
+
+@media screen and (min-width: 720px) {
+  .logo_type_menu {
+    width: 95px;
+    height: 32px;
+    margin: 14px 0;
+  }
+}

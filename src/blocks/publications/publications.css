@@ -1,0 +1,7 @@
+.publications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E0F0FF;
+  color: #000000;
+}

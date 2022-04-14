@@ -1,0 +1,11 @@
+.projects__arrow {
+  background: url("../../../images/chevron-down.svg") no-repeat center;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+}
+
+.projects__arrow_active {
+  background: url("../../../images/chevron-up.svg") no-repeat center;
+
+}
