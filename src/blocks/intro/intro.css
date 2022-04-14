@@ -19,7 +19,13 @@
   .intro::before {
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 120%;
     background-position: center;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .intro::before {
+    transform: scaleX(1);
   }
 }
