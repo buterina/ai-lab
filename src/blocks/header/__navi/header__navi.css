@@ -1,0 +1,38 @@
+.header__navi {
+  display: none;
+  position: absolute;
+  top: 44px;
+  left: 0;
+  z-index: 1;
+  flex-direction: column;
+  width: 320px;
+  background-color: #000D26;
+  padding: 16px 0 36px;
+}
+
+@media screen and (min-width: 720px) {
+  .header__navi {
+    width: 330px;
+    top: 60px;
+    padding: 16px 0 16px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .header__navi {
+    width: 65%;
+    min-height: 100%;
+    display: flex;
+    position: static;
+    margin-left: 5%;
+    justify-content: center;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__navi {
+    width: 60%;
+    margin-left: 8%;
+  }
+}

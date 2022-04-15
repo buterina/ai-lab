@@ -1,0 +1,19 @@
+.intro__container {
+  margin: 30px 16px 77px;
+  max-width: 288px;
+}
+
+@media screen and (min-width: 720px) {
+  .intro__container {
+    margin: 58px 0 120px 39px;
+    max-width: 445px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .intro__container {
+    margin: 92px 0 124px;
+    margin-left: calc(100% - (455px + 10%));
+    max-width: 445px;
+  }
+}

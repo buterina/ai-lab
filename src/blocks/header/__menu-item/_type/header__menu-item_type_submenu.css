@@ -1,0 +1,32 @@
+.header__menu-item_type_submenu {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: .1px;
+}
+
+.header__menu-item_type_submenu:first-child {
+  padding-top: 24px;
+}
+
+.header__menu-item_type_submenu:last-child {
+  padding-bottom: 0;
+}
+
+@media screen and (min-width: 1080px) {
+  .header__menu-item_type_submenu {
+    line-height: 24px;
+  }
+
+  .header__menu-item_type_submenu:hover {
+    background-color: #009FAC;
+  }
+
+  .header__menu-item_type_submenu:first-child {
+    padding: 5px 0;
+  }
+  .header__menu-item_type_submenu:last-child {
+    padding: 5px 0;
+  }
+}

@@ -1,0 +1,3 @@
+.header__checkbox_type_close:checked + .header__close-btn {
+  display: none;
+}

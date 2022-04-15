@@ -1,0 +1,19 @@
+.header__submenu {
+  transform: scaleY(0);
+  visibility: hidden;
+  height: 0;
+  opacity: 0;
+  transition: height .3s linear, opacity .3s linear;
+}
+
+@media screen and (min-width: 1080px) {
+  .header__submenu {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: #000D26;
+    height: 0;
+    padding-top: 30px;
+  }
+}
+

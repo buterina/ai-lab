@@ -1,26 +1,27 @@
 .header__burger-btn {
   border: none;
-  /* position: absolute;
-  top: 10px;
-  left: 16px; */
   width: 24px;
   height: 24px;
   padding: 0;
-  margin-left: 16px;
+  margin: 10px 0 10px 16px;
+  margin-right: calc(50% - 84px);
   background-image: url(../../../images/about/burger-menu.svg);
   background-color: rgba(0, 0, 0, 0);
 }
 
 @media screen and (min-width: 720px) {
   .header__burger-btn {
-    /* top: 18px;
-    left: 39px; */
-    margin-left: 39px;
+    margin: 18px 0 18px 39px;
+    margin-right: calc(50% - 127px);
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1080px) {
   .header__burger-btn {
     display: none;
   }
+}
+
+.header__burger-btn:hover {
+  cursor: pointer;
 }
