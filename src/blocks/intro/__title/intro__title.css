@@ -1,0 +1,15 @@
+.intro__title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: .1px;
+}
+
+@media screen and (min-width: 720px) {
+  .intro__title {
+    font-size: 54px;
+    line-height: 68px;
+  }
+}
+
+
