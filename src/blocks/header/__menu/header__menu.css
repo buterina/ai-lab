@@ -1,0 +1,16 @@
+.header__menu {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  background-color: #000D26;
+}
+
+@media screen and (min-width: 1080px) {
+  .header__menu {
+    width: 100%;
+    min-height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
