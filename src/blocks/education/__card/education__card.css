@@ -1,0 +1,23 @@
+.education__card {
+	min-width: 288px;
+	max-width: 1169px;
+	background-color: #ffffff;
+	margin: 20px 16px 16px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+@media screen and (min-width: 550px) {
+	.education__card {
+		flex-direction: row-reverse;
+		margin: 40px 39px 30px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.education__card {
+		margin: auto;
+	}
+}
