@@ -1,0 +1,10 @@
+.news-card__report {
+  margin: 0 16px;
+  padding-top: 12px;
+  color: #000D26;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  width: 256px;
+  border-top: 1px solid #009FAC;
+}

@@ -1,0 +1,8 @@
+.news-card__pin {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  position: absolute;
+  top: -12px;
+  left: 266px;
+}
