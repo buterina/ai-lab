@@ -4,10 +4,18 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  width: 248px;
+  /* width: 248px; */
 
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+}
+
+@media screen and (min-width: 720px) {
+  .news-card__title {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 8px 20px 20px 20px;
+  }
 }

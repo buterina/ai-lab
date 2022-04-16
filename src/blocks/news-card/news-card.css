@@ -7,3 +7,11 @@
   position: relative;
   margin-top: 12px;
 }
+
+@media screen and (min-width: 720px) {
+  .news-card {
+    width: 330px;
+    height: 340px;
+    margin-top: 25px;
+  }
+}

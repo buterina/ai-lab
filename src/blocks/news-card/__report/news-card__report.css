@@ -5,6 +5,15 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  width: 256px;
+  /* width: 256px; */
   border-top: 1px solid #009FAC;
+}
+
+@media screen and (min-width: 720px) {
+  .news-card__report {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 20px;
+    padding-top: 20px;
+  }
 }
