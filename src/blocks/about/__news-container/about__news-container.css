@@ -1,0 +1,4 @@
+.about__news-container {
+  min-height: 293px;      /* не забыть убрать */
+  padding-bottom: 40px;
+}

@@ -1,0 +1,9 @@
+.about__description {
+  margin: 12px auto 0;
+  padding-bottom: 20px;
+  font-weight: 6400;
+  font-size: 12px;
+  line-height: 17px;
+  max-width: 90%;
+  /* text-align: center; */
+}

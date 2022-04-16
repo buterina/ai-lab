@@ -50,6 +50,12 @@
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
 @import url(../blocks/intro/__button/intro__button.css);
 
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__description/about__description.css);
+@import url(../blocks/about/__news-container/about__news-container.css);
+@import url(../blocks/news-card/news-card.css);
+
 @import url(../blocks/page/page.css);
 @import url(../blocks/lab/lab.css);
 @import url(../blocks/lab/__title/lab__title.css);
