@@ -1,0 +1,22 @@
+.education__program-title {
+	padding: 0;
+	margin: 0;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.0588372px;
+}
+
+@media screen and (min-width: 500px) {
+	.education__program-title {
+		line-height: 20px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.education__program-title {
+		font-size: 18px;
+		line-height: 30px;
+		letter-spacing: 0.1px;
+	}
+}

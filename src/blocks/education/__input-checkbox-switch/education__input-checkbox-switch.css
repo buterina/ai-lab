@@ -1,0 +1,105 @@
+.education__input-checkbox .education__input-checkbox-switch {
+	display: inline-block;
+	height: 40px;
+	min-width: 288px;
+	box-sizing: border-box;
+	position: relative;
+	outline: 1px solid #e0f0ff;
+	border-radius: 10px;
+	background: #009fac;
+	transition: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.education__input-checkbox .education__input-checkbox-switch:before {
+	content: attr(data-label-magistracy);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	width: 139px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.education__input-checkbox .education__input-checkbox-switch:after {
+	content: attr(data-label-postgraduate);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	width: 149px;
+	height: 40px;
+	outline: 1px solid #e0f0ff;
+	border-radius: 10px;
+	z-index: 5;
+	text-transform: uppercase;
+	text-align: center;
+	background: #e0f0ff;
+	color: #000d26;
+	transition: transform 0.3s;
+}
+
+.education__input-checkbox input[type="checkbox"]:checked + .education__input-checkbox-switch:before {
+	content: "МАГИСТРАТУРА";
+	letter-spacing: 0.1px;
+	left: 0px;
+}
+.education__input-checkbox input[type="checkbox"]:checked + .education__input-checkbox-switch:after {
+	content: "АСПИРАНТУРА";
+	transform: translate3d(93%, 0, 0);
+}
+
+/* Hover */
+.education__input-checkbox input[type="checkbox"]:not(:disabled) + .education__input-checkbox-switch:hover {
+	cursor: pointer;
+}
+.education__input-checkbox input[type="checkbox"]:not(:disabled) + .education__input-checkbox-switch:hover:after {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Disabled */
+.education__input-checkbox input[type="checkbox"]:disabled + .education__input-checkbox-switch {
+	opacity: 0.6;
+	filter: grayscale(70%);
+}
+
+/* Focus */
+.education__input-checkbox.focused .education__input-checkbox-switch:after {
+	box-shadow: inset 0px 0px 4px #ff5623;
+}
+
+@media screen and (min-width: 768px) {
+	.education__input-checkbox .education__input-checkbox-switch {
+		height: 44px;
+		min-width: 450px;
+	}
+
+	.education__input-checkbox .education__input-checkbox-switch:before {
+		width: 217px;
+		height: 44px;
+	}
+
+	.education__input-checkbox .education__input-checkbox-switch:after {
+		width: 233px;
+		height: 44px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.education__input-checkbox .education__input-checkbox-switch {
+		height: 60px;
+		min-width: 540px;
+	}
+	.education__input-checkbox .education__input-checkbox-switch:before {
+		min-width: 261px;
+		height: 60px;
+	}
+
+	.education__input-checkbox .education__input-checkbox-switch:after {
+		min-width: 279px;
+		height: 60px;
+	}
+}

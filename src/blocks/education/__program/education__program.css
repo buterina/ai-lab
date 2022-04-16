@@ -1,0 +1,11 @@
+.education__program {
+	margin: 0 16px 20px;
+	text-align: left;
+	color: #000d26;
+}
+
+@media screen and (min-width: 500px) {
+	.education__program {
+		margin: 20px 0 24px 20px;
+	}
+}

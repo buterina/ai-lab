@@ -1,0 +1,23 @@
+.education__info-subtitle {
+	padding: 0;
+	margin: 0;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+@media screen and (min-width: 500px) {
+	.education__info-subtitle {
+		font-size: 14px;
+		line-height: 20px;
+		letter-spacing: 0.1px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.education__info-subtitle {
+		font-size: 18px;
+		line-height: 30px;
+		letter-spacing: 0.1px;
+	}
+}
