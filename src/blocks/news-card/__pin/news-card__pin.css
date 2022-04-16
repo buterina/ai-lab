@@ -14,3 +14,9 @@
     left: 304px;
   }
 }
+
+@media screen and (min-width: 1080px) {
+  .news-card__pin{
+    left: 322px;
+  }
+}

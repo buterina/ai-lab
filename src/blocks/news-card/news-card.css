@@ -12,6 +12,13 @@
   .news-card {
     width: 330px;
     height: 340px;
-    margin-top: 25px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .news-card {
+    width: 348px;
+    height: 340px;
   }
 }
