@@ -55,11 +55,17 @@
 @import url(../blocks/about/__title/about__title.css);
 @import url(../blocks/about/__description/about__description.css);
 @import url(../blocks/about/__news-container/about__news-container.css);
+@import url(../blocks/news-swiper/news-swiper.css);
+@import url(../blocks/news-swiper/__wrapper/news-swiper__wrapper.css);
 @import url(../blocks/news-card/news-card.css);
 @import url(../blocks/news-card/__pin/news-card__pin.css);
 @import url(../blocks/news-card/__date/news-card__date.css);
 @import url(../blocks/news-card/__title/news-card__title.css);
 @import url(../blocks/news-card/__report/news-card__report.css);
+@import url(../blocks/news-swiper/__pagination/news-swiper__pagination.css);
+@import url(../blocks/news-swiper/__button/news-swiper__button.css);
+@import url(../blocks/news-swiper/__button/_type/news-swiper__button_type_prev.css);
+@import url(../blocks/news-swiper/__button/_type/news-swiper__button_type_next.css);
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/lab/lab.css);

@@ -1,18 +1,15 @@
 .about__news-container {
-  min-height: 293px;      /* не забыть убрать */
   padding-bottom: 40px;
 }
 
 @media screen and (min-width: 720px) {
   .about__news-container {
-    min-height: 395px;
     padding-bottom: 60px;
   }
 }
 
 @media screen and (min-width: 1080px) {
   .about__news-container {
-    min-height: 411px;
     padding-bottom: 80px;
   }
 }
