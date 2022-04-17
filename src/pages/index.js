@@ -5,6 +5,7 @@ const aboutSwiper = new Swiper('.news-swiper', {
   slidesPerView: 3,
   centeredSlides: true,  // Если true, то активный слайд будет центрирован, а не всегда слева.
   centeredSlidesBounds: true,  // Если true, то активный слайд будет центрирован без добавления пробелов в начале и конце слайдера. Требуется centeredSlides: true.
+  grabCursor: true,
 
   breakpoints: {
     320: {

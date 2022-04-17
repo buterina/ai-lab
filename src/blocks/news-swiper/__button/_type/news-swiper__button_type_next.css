@@ -1,0 +1,33 @@
+.news-swiper__button_type_next {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .news-swiper__button_type_next {
+    display: block;
+    background-image: url(../../../../images/about/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: #001337;
+    box-shadow: 0 4px 30px rgba(224, 240, 255, .1);
+    position: absolute;
+    top: 170px;
+    left: calc((100% - 1100px) / 2 + 1110px);
+  }
+
+  .news-swiper__button_type_next:hover {
+    background-color: #009FAC;
+    cursor: pointer;
+  }
+
+}
+
+@media screen and (min-width: 1350px) {
+  .news-swiper__button_type_next {
+    left: calc((100% - 1100px) / 2 + 1125px);
+  }
+}
