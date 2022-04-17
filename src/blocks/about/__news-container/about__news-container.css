@@ -1,5 +1,6 @@
 .about__news-container {
   padding-bottom: 40px;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 720px) {

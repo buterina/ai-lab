@@ -3,7 +3,7 @@
   height: 250px;
   background-color: #E0F0FF;
   border-radius: 5px;
-  margin: 0 auto;
+  margin: 0;
   position: relative;
   margin-top: 12px;
 }
@@ -13,12 +13,13 @@
     width: 330px;
     height: 340px;
     margin-top: 15px;
+    border-radius: 10px;
   }
 }
 
 @media screen and (min-width: 1080px) {
   .news-card {
-    width: 348px;
+    width: 340px;
     height: 340px;
   }
 }
