@@ -1,6 +1,6 @@
 .news-card {
   width: 288px;
-  height: 250px;
+  height: 260px;
   background-color: #E0F0FF;
   border-radius: 5px;
   margin: 0;
@@ -11,7 +11,7 @@
 @media screen and (min-width: 720px) {
   .news-card {
     width: 330px;
-    height: 340px;
+    height: 345px;
     margin-top: 15px;
     border-radius: 10px;
   }
@@ -20,6 +20,5 @@
 @media screen and (min-width: 1080px) {
   .news-card {
     width: 340px;
-    height: 340px;
   }
 }

@@ -6,6 +6,12 @@
   margin: 0 auto;
 }
 
+@media screen and (min-width: 350px) {
+  .news-swiper {
+    margin-left: 10px;
+  }
+}
+
 @media screen and (min-width: 720px) {
   .news-swiper {
     width: 1060px;
