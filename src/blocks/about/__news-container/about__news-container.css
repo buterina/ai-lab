@@ -1,0 +1,19 @@
+.about__news-container {
+  position: relative;
+  padding-bottom: 40px;
+  overflow: hidden;
+
+
+}
+
+@media screen and (min-width: 720px) {
+  .about__news-container {
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .about__news-container {
+    padding-bottom: 80px;
+  }
+}

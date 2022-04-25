@@ -1,0 +1,20 @@
+.news-swiper__pagination {
+  text-align: center;
+  max-width: 35vw;
+  margin: 21px calc((100vw  - 35vw) / 2);
+}
+
+.news-swiper__pagination .swiper-pagination-bullet {
+  background-color: white;
+  opacity: .5;
+}
+
+.news-swiper__pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .news-swiper__pagination {
+    margin: 21px calc((100%  - 35vw) / 2);
+  }
+}
